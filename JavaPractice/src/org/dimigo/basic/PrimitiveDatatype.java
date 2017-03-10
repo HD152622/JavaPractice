@@ -40,7 +40,6 @@ public class PrimitiveDatatype {
 		System.out.printf("몸무게 : %.1fkg\n"  ,weight);
 		System.out.printf("혈핵형 : %s형\n" , bloodType);
 				
-
 	}
 
 }
