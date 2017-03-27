@@ -18,12 +18,8 @@ package org.dimigo.oop;
 public class Car2Test {
 	public static void main(String[] args) {
 		System.out.println("<<자동차 목록>>");
-	Car2 car = new Car2();
-	car.setCompany("현대자동차");
-	car.setModel("제네시스");
-	car.setColor("검정색");
-	car.setMaxSpeed(225);
-	car.setPrice(50000000);
+	
+	Car2 car = new Car2("현대자동차" , "제네시스" , "검정색" , 225 ,50000000);
 	System.out.println("제조사명: " + car.getCompany());
 	System.out.println("모델명: " + car.getModel());
 	System.out.println("색상: " + car.getColor());
