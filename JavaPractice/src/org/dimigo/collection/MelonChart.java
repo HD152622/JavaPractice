@@ -36,6 +36,10 @@ public class MelonChart {
 		list.set(2,new Music("팔레트" , "아이유"));
 		printList(list);
 		
+		System.out.println("--<<2위곡 삭제>>--");
+		list.remove(1);
+		printList(list);
+		
 		System.out.println("--<<전체 리스트 삭제>>--");
 		list.clear();
 		
